@@ -1,1 +1,3 @@
 /sevir
+# ファイルサイズが大きいのでレポジトリから除外
+/sklearnmodels/regression/allfeatures
