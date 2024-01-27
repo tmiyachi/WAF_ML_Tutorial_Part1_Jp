@@ -208,7 +208,6 @@ def get_points_in_roc_curve(
     forecast_probabilities=None,
     observed_labels=None,
     threshold_arg=None,
-    forecast_precision=DEFAULT_FORECAST_PRECISION,
 ):
     """
     ROC曲線を計算する
@@ -229,11 +228,7 @@ def get_points_in_roc_curve(
         pod_by_threshold: length-T np array of POD values, to be plotted on the y-axis.
     """
 
-    binarization_thresholds = get_binarization_thresholds(
-        threshold_arg=threshold_arg,
-        forecast_probabilities=forecast_probabilities,
-        forecast_precision=forecast_precision,
-    )
+    binarization_thresholds = get_binarization_thresholds(threshold_arg=threshold_arg)
 
     num_thresholds = len(binarization_thresholds)
     pofd_by_threshold = np.full(num_thresholds, np.nan)
