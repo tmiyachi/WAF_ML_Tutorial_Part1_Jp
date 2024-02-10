@@ -1,11 +1,9 @@
 # WAF_ML_Tutorial_Part1_Jp
 
-このリポジトリは [Chase et al. 2002](https://doi.org/10.1175/WAF-D-22-0070.1) で紹介されているコードレポジトリ
+このリポジトリは [Chase et al. 2022](https://doi.org/10.1175/WAF-D-22-0070.1) で紹介されているコードレポジトリ
 [WAF_ML_Tutorial_Part1](https://github.com/ai2es/WAF_ML_Tutorial_Part1)のノートを日本語約しながら実践したコードです。
 
 オリジナルのコードからバージョンの違いにより動作しないもの利用されていないコードなどを改変、削除しています。
-また、日本語訳は厳密なものではありません。
-必ず [Chase et al. 2002](https://doi.org/10.1175/WAF-D-22-0070.1) を参照しながら実践することをお勧めします。
 
 ## Reference
 
